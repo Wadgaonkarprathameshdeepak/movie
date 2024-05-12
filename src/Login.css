@@ -1,0 +1,73 @@
+/* LoginForm.css */
+
+
+.login-form-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100vh;
+  padding-right: 40vh;
+  font-size: large;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+
+}
+.loginn{
+  padding-right: 45vh;
+  height: 50vh;
+  animation: moveUpDown 2s infinite alternate; /* Apply animation to move up and down */
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0); /* Start at current position */
+  }
+  50% {
+    transform: translateY(-20px); /* Move up by 20px */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
+}
+
+.login-form {
+  background-color: white;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
